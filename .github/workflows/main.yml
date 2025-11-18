@@ -1,0 +1,13 @@
+name: hallowereld
+
+on: 
+  push:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: random
+        run:  echo "hello wereld" 
